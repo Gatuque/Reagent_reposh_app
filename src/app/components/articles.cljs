@@ -19,7 +19,8 @@
     [:ul.tag-list
      (for [tag tagList]
        [:li.tag-default.tag-pill.tag-outline
-        {:key tag} tag])]]])
+        {:key tag} tag])]
+    [:hr]]])
 
 (defn articles [{:keys [articles]}]
   (if-not (seq articles)

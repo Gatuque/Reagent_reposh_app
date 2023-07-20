@@ -5,7 +5,8 @@
 (defn header []
   [:nav {:className "navbar navbar-light"}
    [:div {:className "container"}
-    [:a {:className "navbar-brand" :href (rfe/href ::routes/home)} "conduit"]
+    [:a {:className "navbar-brand" :href (rfe/href :home)}
+     "Reagent Reposh"]
     [:ul.nav.navbar-nav.pull-xs-right
      [:li.nav-item
       [:a.nav-link {:href (rfe/href :home)} "Home"]]

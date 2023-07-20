@@ -10,4 +10,4 @@
     [mainView]
     [:div.col-md-3
      [:div.sidebar
-      [:p "Popular tags"]]]]])
+      [:p "Popular topics"]]]]])

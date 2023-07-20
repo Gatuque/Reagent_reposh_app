@@ -7,5 +7,5 @@
    [:ul.nav.nav-pills.outline-active
     [:li.nav-item
      [:a.nav-link.active
-      {:href ""} "Global Feed"]]]
+      {:href ""} "Users Feedback"]]]
    [articles (deref articles-state)]])
