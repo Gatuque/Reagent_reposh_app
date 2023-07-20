@@ -2,6 +2,11 @@
   (:require [app.auth :as auth]
             [reitit.frontend.easy :as rfe]))
 
+(defn register-user! 
+  [event]
+  (.preventDefault event)
+  (auth/register! event))
+
 (defn register-page
   []
   [:div.auth-page
@@ -10,7 +15,7 @@
      [:div.col-md-6.offset-md-3.col-xs-12
       [:h1.text-xs-center "Sign Up"]
       [:p.text-xs-center [:a {:href (rfe/href :login)} "Have an account?"]]
-      [:form {:on-submit auth/auth-register}
+      [:form {:on-submit #(register-user! {})}
        [:fieldset
         [:fieldset.form-group
          [:input.form-control.form-control-lg {:type :text :placeholder "Username"}]]

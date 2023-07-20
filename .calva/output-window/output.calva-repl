@@ -27,40 +27,320 @@ clj꞉shadow.user꞉> 
 ; Creating cljs repl session...
 ; Connecting cljs repl: shadow-cljs...
 ;   The Calva Connection Log might have more connection progress information.
+; [:browser-repl] Configuring build.
+; [:browser-repl] Compiling ...
+; [:browser-repl] Build completed. (129 files, 128 compiled, 0 warnings, 4.69s)
 ; Please start your ClojureScript app so that Calva can connect to its REPL...
-; Waiting for Shadow CLJS runtimes, start your CLJS app...
-; Waiting for Shadow CLJS runtimes, start your CLJS app...
-; Waiting for Shadow CLJS runtimes, start your CLJS app...
-; Waiting for Shadow CLJS runtimes, start your CLJS app...
-; Waiting for Shadow CLJS runtimes, start your CLJS app...
-; Waiting for Shadow CLJS runtimes, start your CLJS app...
-; Waiting for Shadow CLJS runtimes, start your CLJS app...
-; Waiting for Shadow CLJS runtimes, start your CLJS app...
-; Waiting for Shadow CLJS runtimes, start your CLJS app...
-; Waiting for Shadow CLJS runtimes, start your CLJS app...
-; Waiting for Shadow CLJS runtimes, start your CLJS app...
-; Timed out waiting for Shadow CLJS runtimes, pretending we are connected.
-; Connected session: cljs, repl: :app
+; Connected session: cljs, repl: :browser-repl
 ; TIPS: You can choose which REPL to use (clj or cljs):
 ;    *Calva: Toggle REPL connection*
 ;    (There is a button in the status bar for this)
 ; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
 nil
-; No available JS runtime.
-; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
 cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 cljs꞉cljs.user꞉> 
 nil
-; No available JS runtime.
-; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
-cljs꞉cljs.user꞉> 
+cljs꞉app.auth꞉> 
 nil
-; No available JS runtime.
-; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
-cljs꞉cljs.user꞉> (+ 4 5)
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+;  Can't take value of macro cljs.core/comment
+; --------------------------------------------------------------------------------
+; 
+cljs꞉app.auth꞉> 
 nil
-; No available JS runtime.
-; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
-cljs꞉cljs.user꞉> 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+;  Use of undeclared Var app.auth/register!
+; --------------------------------------------------------------------------------
+; 
+cljs꞉app.auth꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:4
+;  Use of undeclared Var app.auth/POST
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:14
+;  Use of undeclared Var app.auth/api-url
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:42
+;  Use of undeclared Var app.auth/register-success!
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:42
+;  Use of undeclared Var app.auth/json-response-format
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:5:51
+;  Use of undeclared Var app.auth/json-response-format
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:6:48
+;  Use of undeclared Var app.auth/error-handler
+; --------------------------------------------------------------------------------
+; 
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+#'app.auth/error-handler
+cljs꞉app.auth꞉> 
+#'app.auth/register-success!
+cljs꞉app.auth꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:14
+;  Use of undeclared Var app.auth/api-url
+; --------------------------------------------------------------------------------
+; 
+cljs꞉app.auth꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:14
+;  Use of undeclared Var app.auth/api-url
+; --------------------------------------------------------------------------------
+; 
+cljs꞉app.auth꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:14
+;  Use of undeclared Var app.auth/api-url
+; --------------------------------------------------------------------------------
+; 
+cljs꞉app.auth꞉> 
+#'app.auth/api-url
+cljs꞉app.auth꞉> 
+#'app.auth/auth-signin
+cljs꞉app.auth꞉> 
+#'app.auth/register!
+cljs꞉app.auth꞉> 
+#object[Error Error: ["unrecognized request format: " #ajax.interceptors.ResponseFormat{:read #object[ajax$json$make_json_response_format_$_json_response_format_$_json_read_response_format], :description "JSON", :content-type ["application/json"]}]]
+cljs꞉app.auth꞉> 
+#'app.auth/register!
+cljs꞉app.auth꞉> 
+#object[Error Error: ["unrecognized request format: " #ajax.interceptors.ResponseFormat{:read #object[ajax$json$make_json_response_format_$_json_response_format_$_json_read_response_format], :description "JSON", :content-type ["application/json"]}]]
+cljs꞉app.auth꞉> 
+#'app.auth/register!
+cljs꞉app.auth꞉> 
+#object[Error Error: ["unrecognized request format: " #ajax.interceptors.ResponseFormat{:read #object[ajax$json$make_json_response_format_$_json_response_format_$_json_read_response_format], :description "JSON", :content-type ["application/json"]}]]
+cljs꞉app.auth꞉> 
+#'app.auth/register!
+cljs꞉app.auth꞉> 
+#'app.auth/register!
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+; Evaluating file: auth.cljs
+nil
+cljs꞉app.auth꞉> 
+#object[Error Error: ["unrecognized request format: " #ajax.interceptors.ResponseFormat{:read #object[ajax$json$make_json_response_format_$_json_response_format_$_json_read_response_format], :description "JSON", :content-type ["application/json"]}]]
+cljs꞉app.auth꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:5:15
+;  Use of undeclared Var app.auth/json-request-format
+; --------------------------------------------------------------------------------
+; 
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+#'app.auth/register!
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#'app.auth/register-success!
+cljs꞉app.auth꞉> 
+#'app.auth/register!
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#'app.auth/register-success!
+cljs꞉app.auth꞉> 
+#'app.auth/register!
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
 ; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/georgegatuma/dev/re-frame/react-apps/reagent-reposh-app ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:3333 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shadow.user꞉> 
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; [:browser-repl] Configuring build.
+; [:browser-repl] Compiling ...
+; [:browser-repl] Build completed. (129 files, 0 compiled, 0 warnings, 1.47s)
+; Please start your ClojureScript app so that Calva can connect to its REPL...
+; Connected session: cljs, repl: :browser-repl
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+cljs꞉cljs.user꞉> 
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: auth.cljs
+nil
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#'app.auth/error-handler
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#'app.auth/register!
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+; Evaluating file: auth.cljs
+nil
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:11
+;  Use of undeclared Var app.auth/auth-state
+; --------------------------------------------------------------------------------
+; 
+cljs꞉app.auth꞉> 
+nil
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:18
+;  No such namespace: r, could not locate r.cljs, r.cljc, or JavaScript source providing "r"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:18
+;  Use of undeclared Var r/atom
+; --------------------------------------------------------------------------------
+; 
+cljs꞉app.auth꞉> 
+nil
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:18
+;  No such namespace: r, could not locate r.cljs, r.cljc, or JavaScript source providing "r"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:18
+;  Use of undeclared Var r/atom
+; --------------------------------------------------------------------------------
+; 
+cljs꞉app.auth꞉> 
+; Evaluating file: auth.cljs
+nil
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+{"user"
+ {"email" "georgaww2@gmail.com",
+  "username" "gat2",
+  "bio" nil,
+  "image" "https://api.realworld.io/images/smiley-cyrus.jpeg",
+  "token"
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoiZ2Vvcmdhd3cyQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiZ2F0MiJ9LCJpYXQiOjE2ODk4OTQyNjksImV4cCI6MTY5NTA3ODI2OX0.qHAQ8lphVODtkSUvfA1gF63xs0ijkxh9e8s-h4YAQ-0"}}
+cljs꞉app.auth꞉> 
+#'app.auth/register!
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+"George Gatuma"
+cljs꞉app.auth꞉> 
+; Evaluating file: auth.cljs
+nil
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+"null"
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+; Evaluating file: auth.cljs
+nil
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#'app.auth/auth-signin
+cljs꞉app.auth꞉> 
+#'app.auth/register-success!
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#'app.auth/register-success!
+cljs꞉app.auth꞉> 
+#'app.auth/register!
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+{:email "geghkahd@gmail.com",
+ :username "aktmrkggra",
+ :bio nil,
+ :image "https://api.realworld.io/images/smiley-cyrus.jpeg",
+ :token
+ "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoiZ2VnaGthaGRAZ21haWwuY29tIiwidXNlcm5hbWUiOiJha3RtcmtnZ3JhIn0sImlhdCI6MTY4OTg5NTQ0NSwiZXhwIjoxNjk1MDc5NDQ1fQ.6Eq3EXuIUlbt_TXZvAkdOapNGQ5HM_MyB4c0OflRtiw"}
+cljs꞉app.auth꞉> 
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoiZ2VnaGthaGRAZ21haWwuY29tIiwidXNlcm5hbWUiOiJha3RtcmtnZ3JhIn0sImlhdCI6MTY4OTg5NTQ0NSwiZXhwIjoxNjk1MDc5NDQ1fQ.6Eq3EXuIUlbt_TXZvAkdOapNGQ5HM_MyB4c0OflRtiw"
+cljs꞉app.auth꞉> 
+; Evaluating file: auth.cljs
+nil
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+{:email "geghkahd@gmail.com",
+ :username "aktmrkggra",
+ :bio nil,
+ :image "https://api.realworld.io/images/smiley-cyrus.jpeg",
+ :token
+ "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoiZ2VnaGthaGRAZ21haWwuY29tIiwidXNlcm5hbWUiOiJha3RtcmtnZ3JhIn0sImlhdCI6MTY4OTg5NTk2NSwiZXhwIjoxNjk1MDc5OTY1fQ.yz4GiYgbyOkuhuRKiyhkNZzujL11RyCcB6HhliLsJfU"}
+cljs꞉app.auth꞉> 
+#object[TypeError TypeError: localStorage is not a function]
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
